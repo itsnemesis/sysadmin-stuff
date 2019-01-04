@@ -1,0 +1,1 @@
+PowerShell -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -Command "& {Set-Itemproperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -Name userauthentication -Value '1'}"
